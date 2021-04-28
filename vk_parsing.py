@@ -6,7 +6,7 @@ import pickle
 import json
 
 
-token = '17954e0217954e0217954e025517e1e0ad1179517954e024808d7ef08a4aea213a676d9'
+token = ''
 version = 5.124
 count = 5000 # сколько постов?
 offset = 100 # с какой поста? 
@@ -17,7 +17,7 @@ all_url = []
 
 
 while T == True:
-    domain = 'agressivniememes'
+    domain = '' # id группы
 
     
     response = requests.get('https://api.vk.com/method/wall.get',
