@@ -1,2 +1,2 @@
 # vk-parsing
-vk parsing
+VK memes parser and saving
